@@ -1,0 +1,678 @@
+id,label,fragment_id,in_english,validated
+355,Key is a class in SimpleRDBMS package,2209,t,t
+357,A Key is owned by one and only one Table in an RDBMS,5053,t,t
+358,A Key refers to 0 or several opposite foreign keys in an RDBMS,5911,t,t
+361,A Foreign Key refers to one and only one Key in an RDBMS,7988,t,t
+27,"The metamodel is composed of a Publication class with the following attributes:
+- title as String
+- authors as String
+- nbPages as Integer",1135,t,t
+28,"The sample class is the FiniteAutomaton class the following attributes
+- alphabet as String",2481,t,t
+30,"The fragment is composed of the FiniteAutomaton class and the State class.
+FiniteAutomaton has no attributes and a relation to State named finalStateSet with a multiplicity of one or more.
+State has no attributes.",4584,t,t
+31,"The fragment is composed of the Automatoon class with the following attributes:
+- letter as String.",2647,t,t
+32,"The fragment is composed of the Automatoon class and the State class. Automatoon has no attributes and an association to State named source with a multiplicity of 1.
+State has no attributes.",4866,t,t
+33,"The fragment is composed of the State class with the following attributes:
+- name as String",1134,t,t
+35,A contact has a name,333,t,t
+38,the phone number of a land line is encoded as a String,1077,t,t
+39,a cell phone number is mapped to a single contact,5490,t,t
+40,the number of a cell phone number is encoded as a String,2298,t,t
+41,Drawing Interchange Format,2715,t,t
+42,a Drawing Interchange model may have multiple meshes,5649,t,t
+43,a Mesh has a name of type String,2378,t,t
+44,a Mesh may have any number of points,6703,t,t
+45,a point maps to only one Mesh,7407,t,t
+46,a point has a name of type String and coordinates X and Z of type Double,2381,t,t
+47,A Petri Net model has the concept of  places,3093,t,t
+48,in a Petri Net a Pace maps to a single Net,7657,t,t
+49,a Petri Net has the concept of Transitions,2575,t,t
+50,In a Petri Net a Place may be the destination of a Transition,7294,t,t
+51,a Petri Net has the concept of Network (Net),4510,t,t
+52,a Transition maps to a single Network,7221,t,t
+53,"in a Petri Net a Transition must have a destination, and that destination must by a Place.",6051,t,t
+54,in a Petri Net a Network may be composed of any number of Places.,6125,t,t
+55,in a Petri Net a Place is mapped to a single Network,6277,t,t
+56,"In CFG, there is a conditional node.",744,t,t
+57,An expression has a name.,1646,t,t
+58,PetriNet has a transition.,1431,t,t
+59,A MSProject has at least one task.,7255,t,t
+60,There is a place.,4397,t,t
+61,A place may have transitions as its destination.,5286,t,t
+62,A transition has exactly one net and vice versa.,7959,t,t
+63,There is a Net.,1937,t,t
+64,A transition has at least one destination place.,5644,t,t
+65,A Net has at least one place.,6130,t,t
+66,There is a MSProject.,4078,t,t
+67,Every task has 0 or more tasks as predecessors.,5054,t,t
+68,A NamedElement has a name String.,4516,t,t
+69,A task is a kind of NamedElement and has a UID String.,1102,t,t
+70,One UIML may have one Header head.,7312,t,t
+71,There is UIML in the model.,2042,t,t
+72,There are headers in the model.,518,t,t
+73,A UIML has zero or more interfaces.,8009,t,t
+74,A MetaData has a name String.,4228,t,t
+75,A Header many have many MetaData metas.,4702,t,t
+76,A table has zero or more fkeys.,6383,t,t
+77,Tables have name String.,3568,t,t
+78,Columns have name String.,2294,t,t
+79,A table has zero or more columns.,6637,t,t
+80,A FKey references exactly one table.,6131,t,t
+81,There is a FKey in SimpleRDBMS.,4486,t,t
+82,One abstract node has exactly one expression.,5941,t,t
+83,There is an abstract node.,2159,t,t
+84,"In a CFG, there is a node.",1715,t,t
+85,Every node may have another node as in-node.,6693,t,t
+86,A conditional node has exactly one true condition node.,6742,t,t
+87,The ODPTV model has a Technology Object.,841,t,t
+88,A class ImplementableStandard. TechnologyObject extends ImplementableStandard on a 1 to many basis.,7368,t,t
+89,The Implementable standard implements or extends the technology object.,7152,t,t
+90,Implementation implements the technology object class.,4361,t,t
+91,Implementation Class. IXIT extends Implementation Class on a 0 to many basis.,6887,t,t
+92,IXIT Class.,303,t,t
+93,IXIT Class. Implementation extends IXIT on a 0 to many basis.,7017,t,t
+94,ImplementableStandard Class.,2870,t,t
+95,Name variable of ExpressionNode class is of type String.,2180,t,t
+96,MProgramDependenceGraph is an interface for EnterNode,861,t,t
+97,EnterNode implements MProgramDependenceGraph and uses the node 1..1 method,6567,t,t
+98,An element of a model pattern.,349,t,t
+99,The entry node in a program dependence graph.,3897,t,t
+100,The first nodes that will be executed by control flow.,5382,t,t
+101,An Expression Node contains a string attribute,1949,t,t
+102,An expression node contains another expression,6401,t,t
+103,an expression node has a control dependency node with itself,8140,t,t
+517,A workflow process activity has 0 or many relevant data in the workflow.,4644,t,t
+362,SeminarSchedulingSystem is a class in the SeminarSchedulingSystem package,2072,t,t
+363,A Seminar Scheduling System is associated to 0 or several Presenters,5567,t,t
+364,Presenter is a class in the SeminarSchedulingSystem package,1638,t,t
+365,A Presenter is associated to one and only one Seminar Scheduling System,6885,t,t
+564,A UML model has classes which may have forward associations,5991,t,t
+565,A UML model has primitive datatypes,4238,t,t
+566,A UML model has associations,1657,t,t
+567,"A UML model has associations. Each Association has a source, which is a class",5682,t,t
+568,Model elements may have a namespace,6438,t,t
+573,"In a core model, a generalizable element contains two attributes: one that states whether the element is a root and another one that states whether it is abstract",2777,t,t
+574,core models contains namespaces,4466,t,t
+389,"Bug is a class in SoftwareQualityControl package. It has an attribute named ""number"" of type ""Integer"". It has also four other attributes of type String: description, originator, commentsAnswers and closeDate",692,t,t
+392,An Instance is owned by 0 or several instances,4772,t,t
+419,Workflow State class,757,t,t
+638,A Java element has a name,685,t,t
+26,"The metamodel is composed of a Person class with the following attributes:
+- name as string
+- firstName as String
+- phone as String",2135,t,t
+29,"The fragment is composed of the FiniteAutomaton and Transition class.
+FiniteAutomaton has no attributes and an association to the Transition class named transitionSet with a multiplicity of 0 or more.
+Transition has no attributes.",4715,t,t
+105,A template expression can be bound to a variable,5849,t,t
+107,ObjectTemplateExp is a class that represents Object Template Expressions,2244,t,t
+108,An object template expression may contain multiple property template items.,4627,t,t
+109,A collection template expression may contain any number of OCL expressions,7927,t,t
+110,Place is a class representing the concept of a place in a Petri net,683,t,t
+112,Net is the class that represents the concept of a Petri net model,1940,t,t
+113,Transition is a class that represents the concept of a transition between places in a Petri net,2268,t,t
+114,PTArc is a class tat represents that part of a transition that links incoming places to the transition symbol,4283,t,t
+115,Each transition must be linked to exactly one Petri net to which it belongs.,4568,t,t
+116,A collection template expression has a collection kind.,4403,t,t
+117,A collection template expression may be matched to one OCL expression.,6117,t,t
+118,A property template item has exactly one Object Template Expression as its object container.,5656,t,t
+119,A property template item has exactly one property as its referred property.,4631,t,t
+120,A Database may contain any number of Tables.,7878,t,t
+121,A named element has a string that stores its name.,1641,t,t
+122,A Database has a String that stores its SGBD name.,3258,t,t
+123,A Table is associated with exactly one Database.,7578,t,t
+124,A table can have any number of columns as keys.,5388,t,t
+125,A relational database schema can have a table.,3592,t,t
+126,"In a Relational Database Schema, a Column has exactly one Table as its owner.",5127,t,t
+127,A Column has a string to store its datatype and a string to store its default value.,3537,t,t
+128,A trace has a string to store its name.,2507,t,t
+129,A trace has any number of levels.,7551,t,t
+130,Levels exist.,3775,t,t
+131,A level has exactly one trace.,8143,t,t
+132,A Call has a string to store its method name and an integer to store the number of its database rows.,2058,t,t
+133,A call has exactly one level.,8042,t,t
+134,An index has an integer to store its value.,3216,t,t
+135,"A class named ""Actor"".",986,t,t
+136,"A class named ""Agent"" that occupies a position, represented by the ""Position"" class. Every instance of the Agent class occupies exactly one position; and every position is occupied by exactly one agent.",4611,t,t
+137,"The instances of the class ""Position"" can cover roles, represented by the ""Role"" class. This is an optional feature of the Position.",4749,t,t
+138,"A class named ""TupleElement"", containing an attribute called ""value"", of type ""String"".",357,t,t
+139,"A class named ""News"", containing an attribute called ""author"", of type ""String"".",1494,t,t
+143,"A package called ""Deployment"", containing a hierarchy of ""Nodes"".",5528,t,t
+144,"A package called ""Deployment"" containing a ""Specification"", that can contain arbitrary number of Nodes.",6056,t,t
+145,"A package called ""JavaSource"" with a class called ""MethodDefinition"".",479,t,t
+147,An IntegratedTroposActorConcept has roles,1534,t,t
+658,A class representing a Method of Java-20040316 model.,2355,t,t
+660,The Cristal model has Activity Definitions.,385,t,t
+674,A makefile is composed by zero or one comment,5340,t,t
+675,A make file contains rules. Each rule may have dependencies,6612,t,t
+676,Makefiles contains elements. Each element has a name,259,t,t
+713,Defines an object for defining reuses. Can contain reuse clauses.,7738,t,t
+34,The fragment is composed of the State class with an association to from State to State named combination with a multiplicity of 1.,6442,t,t
+36,A Contact may have any number of land line numbers,6904,f,t
+37,a land line number is mapped to exactly one contact,7444,t,t
+104,An expression contains multiple inner expressions,5945,t,t
+106,TemplateExp is a class that represents template expressions.,1197,t,t
+111,TPArc is a class representing the part of a transition in a Petri net that links the transition symbol to the outgoing place(s) of the transition.,1858,t,t
+140,"A class named ""Node"", containing an attribute called ""name"", of type ""String"".",882,t,t
+141,"A class named ""Agent"".",2927,t,t
+142,"A class named ""Specification"".",2108,t,t
+148,There exist devices in a deployment,3822,t,t
+149,"Deployments may have execution environments, which ae of type ExecutionEnvironment)",2772,t,t
+150,A communication link of a deployment has one source node at the most,6264,t,t
+151,A communication link of a deployment has a name,257,t,t
+152,A petri net contains places and nets. Each place is associated to exactly one net.,6675,t,t
+153,Textual paths have paths,404,t,t
+154,Petri nets have Places and TPArcs. Places are in zero or more TPArcs,5845,t,t
+155,Petri nets have transitions and TPArcs. Each transition has one or more TPArcs,7027,t,t
+156,"Petri Nets have nets and places. Each net is composed by at least one place. This is, one or more places",5046,t,t
+157,"News have dates. Each date contains the day of the week, the month, the hours and the seconds",2201,t,t
+158,News have titles and links,2897,t,t
+159,Petri nets have PTArcs and Transitions. Each PTArc is associated to exactly one transition,4674,t,t
+160,"In a Petri net, each TPArc has one source transition.",7433,t,t
+161,Java source code contains the declaration of one or more classes,6183,t,t
+162,Java source code file,3970,t,t
+163,The definition of a class that can be a superclass of another class,4759,t,t
+164,Any element that has a name,3169,t,t
+165,The definition of a method inside a class,6137,t,t
+166,the definition of a class,2799,t,t
+167,the invocation a  method that corresponds to a method definition,7967,t,t
+168,invoking a class,929,t,t
+169,A newspaper is published on a specific date,7139,t,t
+170,a newspaper is written in a language,3654,t,t
+171,A newspaper reports many news,4773,t,t
+172,A news is published on a specific date,5676,t,t
+173,A category has a value,3939,t,t
+174,A relational database is composed of many tables.,4562,t,t
+175,An airplane has a name which is of type string.,1207,t,t
+176,A flight has a maximum number of passengers which is of type integer,3781,t,t
+177,"In a Wiki table, a located element has a location of type string and comments of type string.",733,t,t
+178,"In a relational database, a named element has a name of type string.",3725,t,t
+179,"In a relational database, a tuple has one table that serves as an owner.",6726,t,t
+180,"In a textual path, a transition could be multiple.",3837,t,t
+181,"In the airline domain, an airport has a name of type string.",3748,t,t
+182,News are related to  one  Newspaper and a newspaper can only include one instance of news.,4698,t,t
+183,"In a simple class, an association has a name of type string.",258,t,t
+184,A class could be persistent.,472,t,t
+185,Each airport has multiple flights that depart from it. Each flight can depart from only one airport,6353,t,t
+186,a passenger in SimpleAirlineDomain has a name and a gender,3981,t,t
+187,The attribute of a simple class has a name of type string.,1430,t,t
+188,A flight in an  Airpline Domain has a unique time of departure and that timing is specific for that flight.,6067,t,t
+189,Each database has an sgbdName field of type string,2116,t,t
+190,Each table has one and only one database,5454,t,t
+191,A relationalDBcontent can have tables,3685,t,t
+192,A relationalDBcontent can have tuples,3966,t,t
+418,Abstract and Concrete classes for workflow,6029,t,t
+193,The model defines a class called 'Position',1968,t,t
+196,Each flight has exactly one origin airport.,5017,t,t
+197,An airline conducts any number of flights.,4833,t,t
+198,"A time consists of a year, a day, and a minute.",4271,t,t
+199,Each passenger is assigned to exactly one flight.,7071,t,t
+200,TextualPathExp is part of the package TextualPathExp,827,t,t
+201,A TextualPathExp has exactly one path.,6888,t,t
+202,A path contains at least one transition.,7408,t,t
+203,An AlternativeTrans belongs to one or more Paths.,7775,t,t
+204,The TextualPathExp model includes an AlternativeTrans class.,2695,t,t
+205,The PrimitieTrans class has a name attribute of type String.,3798,t,t
+206,An attribute node,2127,t,t
+207,A node describing a task that may be decomposed on other sub-tasks.,7537,t,t
+278,A node may have/reference to one or many XORGroup,7056,t,t
+280,An attribute has a node. COmpulsory.,5265,t,t
+281,Feeature diagrams have a root.,1182,t,t
+282,A feature diagrams (may) have children,578,t,t
+283,A child may have some nodes.,4882,t,t
+284,A child may have some ORGroup,5419,t,t
+285,"An XORGroup has one attribute : preliminary, which is a boolean.",351,t,t
+287,AN XORGroup may have a node,6861,t,t
+289,A MgaObject has one String attribute called name,4170,t,t
+194,The model contains two classes. One called 'TupleElement' and the other called 'Tuple'. It also defines a directed association that expresses that from an instance (objects) of 'TupleElement' associated 'Tuple' instances (objects) are reachable. One end of the association is labeled 'tuple' and carries a multiplicity constraint that expresses that the association relates each 'Tuple' object with exactly one 'TupleElement' object.,5070,t,t
+195,"The model defines two classes, one called 'Flight' and the other called 'Passenger'. The class 'Flight' is connected via a directed association to class 'Passenger' which means that the associated 'Passenger' object is reachable from a 'Flight' object. One end of the association is labeled 'passenger' and also carries the multiplicity constraint '0..*', meaning that a 'Passenger' object can be associated with 0 or more 'Flight' objects.",5069,t,t
+208,"A task node that includes the string attributes identifier, category, and task type. This node also has integer attributes to describe the importance, complexity level and centrality of the task.",331,t,t
+209,A task with an associated expression,6175,t,t
+210,An operator in some expression language.,3576,t,t
+211,A task with an associate operator,5892,t,t
+212,A binary operator,3306,t,t
+213,A unary operator,994,t,t
+214,A binary operator with only one operand which is a Task,8050,t,t
+215,A unary operator which acts over some task,5659,t,t
+216,A classifier,1472,t,t
+217,A table with a caption,7076,t,t
+218,An expression,4,t,t
+219,A predicate of some query,1057,t,t
+220,A table defined by rows containing cells,6235,t,t
+221,A table with visual properties,211,t,t
+222,The caption of a table,4463,t,t
+223,The row of a table,4380,t,t
+224,The cell of a table with visual properties,1920,t,t
+225,PrimitiveDataType is a Classifier and has a name,1845,t,t
+226,An Attribute of a SimpleClass has one type. The type is a Classifier,5190,t,t
+227,An Association of a SimpleClass has one src that is a Class.,5588,t,t
+228,A Class of a SimpleClass may have one parent Class.,6763,t,t
+229,"A Node of an XML file has a name, a startLine number, and an endLine number",4525,t,t
+230,an XML file comprises Root elements,42,t,t
+231,an XML file comprises Text elements,611,t,t
+232,A Node of an XML file may have one parent which is an Element of the XML file.,7349,t,t
+233,an XML file comprises Element,2402,t,t
+234,An Element of an XML file can have many children Nodes,6217,t,t
+235,DocBook is the root element of book documents,1914,t,t
+236,a TitledElement of DocBook has one title,1947,t,t
+237,Article of DocBook,2119,t,t
+238,Book of DocBook,3013,t,t
+239,Sect1 is a section of DocBook,4085,t,t
+240,Para is a paragraph of DocBook that has a content,4459,t,t
+241,Sect1 has one to many para that serves as paras,4530,t,t
+242,a DocBook has one to many Book that serves as books,4908,t,t
+243,a Book has one to many Article that serves as articles,5057,t,t
+244,an Article of DocBook has one to many Sect1 that serves as sections,5201,t,t
+245,Transition of finite state machines,16,t,t
+516,A workflow process activity has exactly one process definition in the workflow.,6756,t,t
+520,"In WfMC, the workflow's relevant data has 0 or more transition informations.",6952,t,t
+521,This is contact of a business modelled using the given meta-model.,3564,t,t
+366,"Seminar is a class in the SeminarSchedulingSystem package. It has an attribute named ""title"" of type ""String""",1644,t,t
+367,A Presenter has 0 or several Offerings,5157,t,t
+368,A Seminar is associated to one and only one Seminar Scheduling System,5622,t,t
+249,"The package ""Architecture Description"" contains two components. Component ""ArchitectureView"" conforms to one or more components ""ArchitectureViewPoint"". An ""ArchitectureViewPoint"" does not know the ""ArchitectureView"" that conform to it.",6521,t,t
+252,"Package ""ArchitecturalDescription"" contains component ""ArchitectureView"" which is selected by one or more ""ArchitectureDescription"" (another component).",5014,t,t
+253,"""ArchitectureView"" is a component included in package ""ArchitecturalDescription""",4371,t,t
+254,"""ArchitectureViewPoint"" is a component of the package ""ArchitecturalDescription""",600,t,t
+255,"""MainView"" is a component of the package ""ArchitecturalDescription""",3841,t,t
+256,"In package ""ArchitecturalDescription"" there are several components, including ""ArchitectureViewPoint"" and ""MainView"". The former defines exactly one latter.",7766,t,t
+257,"a ""MainView"" is projected onto one or more ""ArchitectureView"". Both components are in package ""ArchitecturalDescription""",6873,t,t
+258,"""ArchitectureDescription"" package contains components called ""ModelElement"".",2484,t,t
+259,A BQL model has fields. Each field has a name,3297,t,t
+260,A BLQ model contains elements. Each element has a location and comments,3487,t,t
+261,A BQL model contains queries and entries. Each query is composed of zero or more entries,5552,t,t
+262,A BQL model has queries,1782,t,t
+263,A BQL model has entries and fields. Each field is composed by one or more fields,5307,t,t
+264,A BQL model has entries. Each entry has a name and a boolean attribute allFields,2680,t,t
+525,This is one of the 0 or many services provided by a business entity.,2766,t,t
+528,"This class is a utility class used to store identifiers, presumably Strings.",3993,t,t
+530,An overview document.,1811,t,t
+576,"In a core model, Features may have an owner which is a classifier",6355,t,t
+269,The EAI Model has an EAISource class that extends FCMSource.,3948,t,t
+518,A transition information has exactly one workflow process activity to go to.,5921,t,t
+519,"In WfMC, the workflow's relevant data has 0 or more WorkflowProcessActivity as process activities.",5909,t,t
+522,"In WfMC, the workflow's participant specification has exactly one process definition.",5173,t,t
+523,"In WfMC, the workflow's participant specification has 0 more process activities.",5079,t,t
+394,The instance has one or more classifiers.,4949,t,t
+397,The linkend class,2087,t,t
+398,attributelink has zero or one instance of the Instance type.,6809,t,t
+402,the nodeinstance class,2559,t,t
+405,componentinstance has zero or more residents,7631,t,t
+407,workflowprocessdefinition has zero or more participantspecifications,7029,t,t
+410,An extension has a name,2331,t,t
+412,A workflow process definition is composed of a set of transition definitions,6427,t,t
+413,Interface for workflow,753,t,t
+420,Abstract and Concrete classes related to specific functionality in Workflow,4987,t,t
+421,"Workflow State Class, collaborates with WorkflowProcessActivity",622,t,t
+430,Workflow Transition information is part of the Workflow Definition,4972,t,t
+431,A company structure model has companies,3904,t,t
+433,A company structure model has corporate HQ,3441,t,t
+434,Each corporate HQs manages a certain number of stores,6221,t,t
+437,A company structure model has back offices,3078,t,t
+438,A store is composed by zero or more cash registers,7403,t,t
+439,A company structure model has cash registers,2584,t,t
+441,"In an eclipse plugin, applications are composed by at least one extension point",4538,t,t
+444,"In an eclipse plugin, extension points are linked to exactly one plugin",5024,t,t
+445,"In an eclipse plugin, descriptions have an xml schema",3284,t,t
+446,"In an eclipse plugin, descriptions may have extension points",5135,t,t
+447,Each eclipse plugin has an id and a version,2356,t,t
+449,Eclipse plugins configure one or more extensions,7859,t,t
+452,"In an eclipse plugin, each class has exactly one librairy",8110,t,t
+453,"Petri nets models have places, which are associated to exactly one net",4623,t,t
+454,A place has zero to n input arcs,6494,t,t
+455,The Petri net package has a class Transition,302,t,t
+460,A Petri net has place-transition arcs.,426,t,t
+462,A place-transition arc in a Petri net has exactly one transition representing the destination of the arc.,7772,t,t
+463,A Petri net is composed of transition-place arcs.,4276,t,t
+464,There are tokens in a Petri net.,4404,t,t
+465,"In a Petri net, a transition-place arc has exactly one transition acting as the source of the arc.",6815,t,t
+466,A token is associated with exactly one place of the Petri net.,6799,t,t
+467,"A project is described by an identifier, an artifact identifier, and a description.",1825,t,t
+468,A Maven project is composed of zero to n mailing lists.,5602,t,t
+469,"A build configuration has one default goal, and one path to a unit test source directory.",2413,t,t
+470,A Maven project is composed of at most one build configuration.,7094,t,t
+471,"A resource has one target path, a directory, and an excludes string.",3318,t,t
+472,A build configuration is associated with at least zero and at most n resources.,4931,t,t
+473,"A mailing list has a name, a subscribe string, and an archive string.",2332,t,t
+474,"A person contributing to a Maven project has a name, a URL, an organization URL, and a given time zone.",3879,t,t
+475,A developer contributing to a Maven project has a unique identifier.,1779,t,t
+476,A Maven project has contributors.,3905,t,t
+477,The ActorConcept has a HardGoal.,278,t,t
+478,The QoSStatement package has a QoSStatement class.,2851,t,t
+479,The QoSStatement package has a QoSStatement class. Each QoSStatement class has a CompoundQoSStatement to which it is related.,5125,t,t
+480,The QoSStatement package has a SingleQoSStatement class.,3039,t,t
+524,"This is the class defining a business entity, characterised through a set of identifiers, stored in a IdentifierBag.",8150,t,t
+526,"This class describes a model, which can contain 0 or many overview documents.",7745,t,t
+527,This class describes a business entity.,982,t,t
+529,"A generic, abstract model.",1499,t,t
+577,A core model contains classifiers,924,t,t
+642,A class named ICdeComponent,3068,t,t
+714,The clause that constraints the reuse,3249,t,t
+715,The object that provides reuse,4137,t,t
+718,The base class for defining a work. Can have parent works,7326,t,t
+337,ModelElement is a class that belongs to SimplifiedMiningMart Package,2132,t,t
+338,A Class is composed of one or several attributes,6697,t,t
+339,A DataType has one and only one Attribute,7840,t,t
+340,Classifier is a class that belongs to SimplifiedMiningMart package,2610,t,t
+341,StructuralFeature is a class that belongs to SimplifiedMiningMart package,4198,t,t
+342,An Attribute is associated to one and only one Class,6179,t,t
+343,"Class is a class that belongs to SimplifiedMiningMart package. It has an attribute named ""name"" of type ""String""",2197,t,t
+344,DataType is a class that belongs to SimplifiedMiningMart package,3324,t,t
+345,Attribute is a class that belongs to SimplifiedMiningMart package,3734,t,t
+346,"RModelElement is a class that belongs to SimpleRDBMS package. It has an attribute named ""kind"" of type ""String""",550,t,t
+347,A Schema is composed of 0 or several Tables in an RDBMS,7716,t,t
+348,Schema class belongs to SimpleRDBMS package,4123,t,t
+349,A Column is associated to 0 or several foreign keys,4817,t,t
+350,A Table is associated to one and only one Schema in an RDBMS,4913,t,t
+351,A Table is composed of 0 or several keys in an RDBMS,4625,t,t
+352,Table is a class in the SimpleRDBMS package,4457,t,t
+354,A Column is owned by one and only one Table in an RDBMS,4969,t,t
+531,A launch configuration has a type.,3823,t,t
+532,A launch configuration has zero or more attributes.,4786,t,t
+381,The ControlsSequence is a class in the SoftwareQualityControl package,485,t,t
+382,The employees that are working in the company.,1205,t,t
+385,The controls objects are linked to the controls sequence and their role (responsibility) in the sequence.,3364,t,t
+386,The date of the control.,6417,t,t
+390,A Bug is associated to one and only one Bug Tracking,5560,t,t
+391,Instance is a class which belongs to Common_Behavior package,892,t,t
+393,AttributeLink is a class which belongs to Common_Behavior package,3358,t,t
+395,The instance has zero or more slots from the attributelink type.,5836,t,t
+396,The link class.,4256,t,t
+399,the componentinstance class,4435,t,t
+400,attributelink has zero or one linkend attributes from the linkend type,5598,t,t
+401,the link instance has an association attribute from the association type,4816,t,t
+403,linkend has one link attribute of the link type,4775,t,t
+404,linkend has one attribute of the instance type,8082,t,t
+406,nodeinstance has 0 or more componentinstance node that serves as resident,4546,t,t
+408,A petri net model has places,53,t,t
+409,A class has a name,2010,t,t
+411,A workflow process definition is composed of a set workflow application declaration.,7415,t,t
+414,Implementation of WorkflowApplicationDeclaration,4309,t,t
+415,A workflow application declaration might have associated relevant data,6243,t,t
+416,A WfMC model has workflow participant specifications,761,t,t
+417,Class that has the data related to workflow,2143,t,t
+428,Collaborating classes for Activity/Transition (i.e. workflow state),6866,t,t
+435,A company structure model has stores,3371,t,t
+436,"In a company structure model, stores have exactly one back office",7566,t,t
+440,"In an eclipse plugin, there are applications with a name and an author",3562,t,t
+442,"In an eclipse plugin, extension points have a name",4325,t,t
+443,"In an eclipse plugin, extension points are linked to exactly one application",7177,t,t
+448,"In an eclipse plugin, extensions are configured into one extension point",7378,t,t
+450,Eclipse plugins may require other plugins,5816,t,t
+451,"In an eclipse plugin, a library is associated to exactly one plugin",5623,t,t
+456,"In the PetriNet package, a Transition object belongs to at most one Net object",7003,t,t
+457,The PetriNet package declares one Net class,3758,t,t
+458,An arc of a Petri net is associated with a weight.,1338,t,t
+459,A transition of a Petri net has zero to n output arcs.,7205,t,t
+461,A Petri net is composed of at least one place.,6785,t,t
+533,An attribute has a key.,3010,t,t
+534,A map attribute has zero or more map entries.,6114,t,t
+535,A map entry is connected to one map attribute.,6583,t,t
+536,A boolean attribute has a boolean value.,1188,t,t
+538,A map attribute is a class.,1018,t,t
+539,A string attribute has a string value.,565,t,t
+578,A core model contain generalizations. Each generalization has a parent which is a generalizable element,4849,t,t
+613,A core metamodel has relationships,962,t,t
+614,The core has generalitations. Each generalization has an attribute discriminator,1254,t,t
+617,use case diagrams have use cases,3307,t,t
+618,Use case diagrams have extends. Each extend extends one or more use cases,4613,t,t
+619,Use case diagrams have includes. each include includes one or more use cases,6465,t,t
+623,Use case diagrams have use case containers,2205,t,t
+625,Use case diagrams have behavioured classifiers,2390,t,t
+716,A default provider,2826,t,t
+717,The base class for named element in Ant Scripts,883,t,t
+537,A list attribute has zero or more list entries.,5397,t,t
+246,FiniteInteration is a special subclass of UnaryOperators with an extra integer attribute called interation.,1068,f,t
+540,A list entry is connected to one list attribute.,7346,t,t
+247,"This model contains a package called ""Architectural description"" which contains a component called ""Architecture"".",3484,t,t
+541,A map entry is a class.,3893,t,t
+542,A list attribute is a class.,661,t,t
+543,A list entry has a string value.,1495,t,t
+579,A core model contains features. Each feature contains an attribute called ownerScope which is of ScopeKind,337,t,t
+248,"The package ""Architectural Description"" includes a component named ""Architecture"" and a component called ""Architecture Description"". An ""Architecture"" is described by exactly one ""Architecture Description"". An ""Architecture Description"" does not know the ""Architecture"" it describes.",6027,t,t
+250,"The package ""ArchitecturalDescription"" contain the component ""ArchitectureDescription""",2150,t,t
+251,"The packahe ""ArchitecturalDescription"" contains : component ""ArchitectureDescription"" and component ""ArchitectureView"".  An ""ArchitectureDescription"" selects one or more ""ArchitectureView"".",4583,t,t
+615,Use cases are composed by includes,6503,t,t
+616,use case diagrams have actors,1655,t,t
+620,Use case diagrams have extends,1844,t,t
+621,Use case diagrams have use case containers. Each container is owned by zero or more named element,6778,t,t
+622,Use case diagrams have includes,4127,t,t
+624,"Use case diagrams have associations, each one could be linked to an actor",5220,t,t
+626,"Use case diagrams have name elements, which have a name",1208,t,t
+627,Use case diagrams have associations,2064,t,t
+646,A Cristal package has a class named Condition.,386,t,t
+647,The Condition class of a Cristal may have one or more PartCompositeMember.,7174,t,t
+650,The CompositeActDef of a Cristal may may be composed by one or more ActCompositeMembers,5237,t,t
+651,The ElementaryPartDef class of a Cristal.,1128,t,t
+265,A BQL model has fields and entries. Each field is associated to exactly one entry,5325,t,t
+266,A BQL model has predicates and entries. Each Predicate is associated to exactly one entry,7544,t,t
+267,Each EAISource has zero or more resources of type EAIResource.,5330,t,t
+268,The EAI model has a class of type FCMSource.,1474,t,t
+369,Date is a class of SeminarSchedulingSystem package. It has two attributes: year of type Integer and day of type Integer,3434,t,t
+370,Seminar is associated to 0 or several Offerings,4626,t,t
+371,Offering is associated to one and only one Date,7971,t,t
+372,"Attendee is a class which belongs to SeminarSchedulingSystem package. It has an attribute named ""name"" of type ""String""",1906,t,t
+373,It is a model class for describing the concept of a date. It includes an integer for the day and another integer for the year.,2950,t,t
+374,This fragment describe Library class in the EclipsePlugIn package. It is a class with only a name and no relationship,487,t,t
+375,A relationship between the presenter of a scheduled seminar and offering of a seminar,5670,t,t
+376,A company contains one back office for each store,599,t,t
+377,A control has a type,6983,t,t
+378,A software quality control has a bug traking,2543,t,t
+379,This fragment is composed of two classes : ControlsSequence and Control. And the controls relationship between them.,5074,t,t
+380,The name of the attendees that are going to attend the offered seminar,5055,t,t
+662,The Cristal model has Part Composite Members,1731,t,t
+685,A MTRANS model contains metamodels,3535,t,t
+687,A MTRANS model has modules. Each module is composed by a set of one or more rules,6714,t,t
+688,A MTRANS model has modules. Each module has a name,3586,t,t
+690,A MTRANS model has modules. Each rule has a source which is a metaclass,6679,t,t
+691,A MTRANS model has rules. Each rule has two properties: one to state whether the rule is abstract and the other one to store its name,943,t,t
+694,A MTRANS model has rules. Each rule might be composed by inheritances,6997,t,t
+695,A MTRANS model has expressions. Each expression has an operator,1619,t,t
+696,A MTRANS model has Sections. Each section has a kind,3067,t,t
+697,A MTRANS model has inheritances. Each inheritance has a rule associated,5422,t,t
+698,A MTRANS model has instructions,4345,t,t
+270,The EAISink which is also a FCMSink has a list of zero or more EAIResource.,5096,t,t
+271,A concrete class named FCMSink in a package named EAI.,3143,t,t
+272,A concrete class named EAISink in a package named EAI.,1702,t,t
+273,"A node has a description and and object, both of type string",4027,t,t
+274,A FiniteStateMachine has a class that is an AssociationStateState,388,t,t
+275,The EAI model has a class that is EAIResource,3482,t,t
+276,Class EAIQueue has an integer attribute maxLength,2302,t,t
+277,A node is composed of any number of attributes,7895,t,t
+279,"An attribute has three attributes description and name (String), and key (boolean).",3860,t,t
+286,An ORGRoup has an attribute that is a boolean and is called preliminary.,2409,t,t
+288,AN ORGroup may have a node,6711,t,t
+290,A transition has one and only one a state machine.,7921,t,t
+291,A state has one and only one StateMachine,7478,t,t
+292,A state has one or more association state source,4797,t,t
+293,A FSM (may) have a state,2786,t,t
+294,A FSM (may) have a state machine,3844,t,t
+295,A state machine has one and only one root folder,4540,t,t
+296,A state machine may have a transition or many or not,6008,t,t
+297,A root folder has a name,3559,t,t
+298,"A root folder may have root folders, potentially many.",6230,t,t
+299,An association state has one and only one transition,6979,t,t
+300,An association state has one or many source state,8071,t,t
+301,"An outline is composed of nodes, potentially many.",6337,t,t
+302,"A located element has location, which is a simple string",1027,t,t
+303,A node is composed of a label,5760,t,t
+304,An outline has an extension (String),4450,t,t
+305,A node has a name and an icon. Both String.,1763,t,t
+306,"A node is composed of maps, which are the mapping.",5697,t,t
+307,A label has a label,4032,t,t
+308,A label may have label suites,4534,t,t
+309,A label suite has a label,804,t,t
+310,A map has a map string,1152,t,t
+311,A petri  net has a place,3029,t,t
+312,"In a Petri net, there are places and nets. Each place must be associated to exactly one net",5261,t,t
+313,"A petri net has places and TPArcs, each place can be part of zero or more arcs",5257,t,t
+314,a petri net has transitions,1752,t,t
+315,a petri net model has nets,3617,t,t
+316,"In a petri net model, a transition must be always part of exactly one net",5159,t,t
+317,A petri net model has arcs,3309,t,t
+318,A transition has one to many outgoing TPArcs,4705,t,t
+319,The class PTArc,714,t,t
+320,A Net is composed of one to many Places,6245,t,t
+321,PTArc has one dst Transition,4686,t,t
+322,The class TPArc,3737,t,t
+323,TPArc has one src Transition,5329,t,t
+324,A PetriNet includes Places,4266,t,t
+325,A Place is present in one and only one Petri Net,6222,t,t
+326,A petri net has transitions,1755,t,t
+327,A petri net has places that are in zero or more TP arcs,5678,t,t
+328,"in a petri net, each transition must be linked to a net",5383,t,t
+329,A petri net model has nets,1168,t,t
+330,A petri net model contains arcs. Each arc has a weight,2304,t,t
+331,A Transition has one or several outgoing Transition-to-Arc Arcs,7449,t,t
+332,A Petri Net is composed of one or several Places,5431,t,t
+333,A Place-to-Transition Arc belongs to PetriNet package,3044,t,t
+334,A Place-to-Transition Arc has one and only one destination Transition,5120,t,t
+335,A Transition-to-Place Arc is a class that belongs to PetriNet package,1786,t,t
+336,A Transition-to-Place Arc is associated to one and only one Transition,4732,t,t
+353,"Column is a class in SimpleRDBMS package. It has an attribute named ""type"" of type ""String""",3447,t,t
+356,ForeignKey is a class in SimpleRDBMS package,1270,t,t
+359,The scheduling system has an offering that could be cancelled.,1310,t,t
+360,A Foreign Key concerns 0 or several Columns in an RDBMS,4629,t,t
+544,An element in a graph along its location within that graph.,1697,t,t
+545,A Graph object is composed of any number (or none) of GraphElements.,7431,t,t
+548,A Graph object has a type and a dimension.,85,t,t
+550,A Node element has a shape.,3519,t,t
+553,There exists SubGraph objects.,3756,t,t
+383,"In a software quality control, a control belongs to a controls sequence",6853,t,t
+384,The list of bugs in the software bug tracking system which are linked to control type.,5359,t,t
+387,The different types of controls.,1945,t,t
+388,Architecture is a class that represents a specific architecture of a potential system.,4832,t,t
+429,A company is composed by one and only one corporate HQ,7180,t,t
+486,My domain contains QoS constraints,2821,t,t
+554,There exists Attribute objects.,2061,t,t
+555,A Package is composed of any number (or none) of PackageElement.,5209,t,t
+558,There exists PackageElement objects.,2260,t,t
+580,GeneralizableElement has one and only Generalization,5689,t,t
+628,"The overall model seems to describe the structure of UML types (classes or components), and the fragment represents the fact that each type has a bunch of members (attributes/functions)",7171,t,t
+481,The QoSStatement package has a SingleQoSStatement class. Each SingleQoSStatement class is composed of a QoSContraint.,7703,t,t
+485,"Every QoS constraint should be qualified, according to its kind. A particular type (QualificationKind) describes the possible kinds.",7013,t,t
+487,"My domain defines the possible types of qualifications. They have a value, which is a string.",4103,t,t
+488,"QoSStatement is a superclass of all classes that describe various kind of objets, either simple or compound, that representing quality of services.",1382,t,t
+489,Actor is a class that describes actors. Actors are able to fulfill some goals using resources thanks to a plan.,1977,t,t
+493,SoftGoal is a class that describes those particular goals that are said to be soft.,825,t,t
+495,"A goal is wanted by one actor, that is called its wanter.",7419,t,t
+498,An actor concept model contains dependencies and actors. Each dependency is associated to exactly one actor,5635,t,t
+500,An actor model contains resources,1507,t,t
+503,"In an actor concept model, each dependency is associated to one plan at the most to explain why",4860,t,t
+509,a business entity may have business contacts,7871,t,t
+546,A GraphElement contains a reference to its parent Graph.,5821,t,t
+547,A basic element with a name.,434,t,t
+549,A GraphElement has a label and a z index.,4243,t,t
+551,A DirectedArc links a source node and a target node and has a shape.,1865,t,t
+552,A Constraint has a value.,2961,t,t
+556,A PackageElement references its parent Package.,6919,t,t
+557,There exists Package objects.,1682,t,t
+575,"Core models contain classifiers. Each classifier may have power type ranges, which are generalizations",7044,t,t
+629,Class representing if the element feature is final with a boolean value,451,t,t
+631,Class with the name of the file that we want to execute to realize the make,101,t,t
+636,Class IUmlClass is a subclass of IUmlType,3569,t,t
+639,A class member can either be static or not.,1300,t,t
+640,A Macro class has an attribute of type String named value.,106,t,t
+645,The ICdeMemberExe of a CDE has two attributes: a String named executionPerformance and another String called executionDetails.,3990,t,t
+648,The CompositeParDef of a Cristal may be composed by one or more PartCompositeMember.,8006,t,t
+652,The ElementaryActDef of a Cristal,2489,t,t
+653,The ActCompositeMember of a Cristal may have one or more ActivityDefinition.,6088,t,t
+654,The ActivityDefinition of a Cristal has exactly one ActCompositeMember.,4992,t,t
+655,The CompositeActDef of a Cristal.,2347,t,t
+656,The ActCompositeMember of a Cristal.,3614,t,t
+663,A class member has a unique java class as owner.,6968,t,t
+665,Each Java class may have class members,7968,t,t
+668,Each Java package might be composed of zero or more classes,7036,t,t
+670,"Each java feature parameter has a type, which is a Java class",6318,t,t
+672,a java model contains primitive types,2567,t,t
+673,a java model contains feature parameters,3499,t,t
+678,"A make model contains shell lines, which have one rule each",4941,t,t
+679,A RuleDep instance is a dependency that relates Rule instances.,8019,t,t
+683,A rule dependency.,3542,t,t
+686,A MTRANS model contains modules. Each module may have metamodels associated,5291,t,t
+689,A MTRANS model has rules. Each rule has a module associated to it,6669,t,t
+699,A MTRANS model has inheritance objects. Each of which may have inherited rules,4826,t,t
+701,"A variable is associated with one and only rule.
+A rule is composed of multiple variables.",4905,t,t
+704,An expression can be composed of one and only inherited rule,6646,t,t
+705,"WorkDefinition presents the superclass of al kinds of tasks (lifecycle, phase, iteration, activity). A work can have sub-works and parent-work.",2538,t,t
+706,"There are two classes.
+The first one is named Expression and the second is named Instruction.
+The class Expression has an attribute named instruction of type Instruction and of cardinality 1.
+The class Instruction has no attribute.",7816,t,t
+708,An empty class named ReuseContract.,4263,t,t
+482,CoumpoundQoSStatement is a class which belongs to QoSStatement package,2958,t,t
+483,A CoumpoundQoSStatement is composed of 2 or more QoSStatements,5407,t,t
+484,Parameter is a class which belongs to QoSStatement package,4399,t,t
+490,An actor may have some dependencies.,6805,t,t
+491,An actor can have zero or several goals.,7226,t,t
+492,Goal is a class.,845,t,t
+494,An actor may use some resources.,6349,t,t
+496,Dependency is a class that represent dependencies.,2416,t,t
+497,"A goal may have some dependencies. What ""WG"" means is unclear, it could mean ""With Goal"".",7234,t,t
+499,An actor concept model contains plans,1485,t,t
+501,"In an actor concept model, there are dependencies and goals. Each dependency is associate to none or one goal",8093,t,t
+502,"In an actor concept model, each dependency is associated to one resource at the most to explain why",7364,t,t
+504,"In an actor concept model, each plan is fufilled by one goal",5754,t,t
+505,"In an actor concept model, plans may have dependencies",8051,t,t
+506,"In an actor concept model, each resource uses exactly one actor",6394,t,t
+507,"In an actor concept model, each resource is associated to exacly one dependency",6566,t,t
+508,A PIF model contains Business templates,3688,t,t
+510,A UML model element may be of different kinds,1002,t,t
+511,An attribute belongs to a single class,5691,t,t
+559,A UML model has classifiers and attributes. Each classifier may have attributes that are their opposite type,6362,t,t
+560,A UML model has classes which are composed of attributes,6530,t,t
+561,A UML model has classifiers,2303,t,t
+562,A UML model has classes. These classes may have other classes associated that act as their general opposite,5225,t,t
+563,A UML model has classes,4038,t,t
+569,A core model contains elements,3214,t,t
+570,A core model contains model elements. Each model element contains a name and a boolean value that states whether or not the model element is a specification,2497,t,t
+571,A core model contains generalizable elements. Ech elements is linked to zero or many generalizations,7561,t,t
+572,A core model contains elements of type namespace. Each namespace is composed by model elements,7436,t,t
+630,Class that represents the dependencies of the files with the rule that is applied to it,61,t,t
+632,The package UMLWithreuseContrats has a class to represent a package.,595,t,t
+633,The class IUmlType tries to represent the different types of uml elements.,1461,t,t
+634,"In this model, class ICdeServer implements zero or more ICdeComponent",6901,t,t
+635,Class ICdeComponentSpec represents a subtype of IUmlType,3317,t,t
+637,IUmlComponent is a subtype of IUmlClass,4242,t,t
+641,A class named ICdeServer,3923,t,t
+643,A class named IUmlMember,3119,t,t
+644,A class named ICdeMember in the CDE package.,2020,t,t
+649,A Cristal package has one or more CompositeParDef.,175,t,t
+657,The PartDefinition node has any number of PartCompositeMember nodes. Each such node has one PartDefinition node.,6315,t,t
+659,The PartCompositeMember is a member of a unique PartDefinition of the Cristal model.,6041,t,t
+661,The cristal model has Part Definitions.,2422,t,t
+664,A Java class is composed of any number of class members. Each class member belongs to a unique Java class.,6314,t,t
+666,"In a Java model, there are fields",3783,t,t
+667,Each Java method might be composed by feature parameters,6659,t,t
+669,"A java class has two properties: one to state whether it is abstract or not, and another one to state whether it is public or not",3681,t,t
+671,A java model contains packages,4446,t,t
+677,A makefile contains rules,928,t,t
+680,A class named MetaClass.,674,t,t
+681,A shell line is characterized by a string representing a command.,3244,t,t
+682,A comment is characterized by a text string.,1829,t,t
+684,"A makefile contains file dependencies, each one having a name",909,t,t
+692,A MTRANS model has rules. Each rule is composed by at least one section,8039,t,t
+693,A MTRANS model has inheritances,1154,t,t
+700,A MTRANS model has variables. Each variable has a name,1065,t,t
+702,"A rule can have more than one section.
+A section can be in one and only rule.",7480,t,t
+703,"An instruction is composed of one and only expression.
+An expression must be associated with one and only instruction.",4845,t,t
+707,"There is a class ReuseContract with a relation towards another class ProviderClause.
+The relation's name is supplier and the cardinality is 1.",7287,t,t
+709,"A class named Dependency.
+The class has no attribute nor method.",3430,t,t
+710,"A class Dependency.
+There is a relation from the class Dependency towards the class Dependency.
+The relation is named owningDependency.
+An instance of Dependency can have 0 or 1 Dependency.",4586,t,t
+711,"There are two classes: CompositeProvider and ReuseContract.
+There is a composite relation from CompositeProvider to ReuseContract.
+The role name of CompositeProvider in this relation is subcontract.
+A ReuseContract has exactly one subcontract",4790,t,t
+712,A class ProviderClause,3131,t,t

@@ -1,2 +1,48 @@
-# uml-classes-and-specs
-Repository that contains the data used for "Extraction of UML Class Diagrams from Natural Language Specification"
+# Repository for UML-English data
+This repository contains the data used for "Extraction of UML Class Diagrams from Natural Language Specification" (Yang et al. 2022)
+
+## Getting the dataset
+To get the entire dataset, you must download the release containing `dataset.tar.gz`.
+
+## Structure of the dataset
+
+* `dataset.tar.gz`: archive that contains all the files
+* `fragments.csv`: file that lists UML fragments and their characteristics
+* `labels.csv`: file that contains the labels received in the crowdsourcing effort
+* `models.csv`: file that lists UML class diagrams and their characteristics
+* `zoo/`: folder that contains all the UML data itself, such as pictures and UML encodings
+
+## Making use of the dataset
+Unzip the tarball first.
+
+### Opening the image of a certain UML model
+Open `models.csv` to read the list of available models. Copy its name and search in the `zoo/` folder for `.png` files starting with that name. For example, the ACME model has an image in the `zoo/` folder called `ACME.png`.
+
+```bash
+ls zoo/ACME.png
+code zoo/ACME.png # any other image visualizer
+```
+
+### Opening the image of a certain fragment
+Fragment files are named in the following pattern.
+
+Class fragments:
+```
+(ModelName)_(class)(number).png
+```
+
+Relationship fragments:
+```
+(ModelName)_(rel)(number).png
+```
+
+Similarly, you can visualize them.
+```bash
+code zoo/CFG_class0.png
+```
+
+### Finding the image of a fragment starting from a label
+1. Browse through `labels.csv` and find the line that has the label of interest.
+2. Every label has a `fragment_id`, which can be indexed in `fragments.csv`. Find the ID for the label of interest.
+3. Inside `fragments.csv`, search for the line with an equal ID number in the column `unique_id`.
+4. Proceed like in the previous [section](#opening-the-image-of-a-certain-fragment).
