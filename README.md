@@ -44,5 +44,5 @@ code zoo/CFG_class0.png
 ### Finding the image of a fragment starting from a label
 1. Browse through `labels.csv` and find the line that has the label of interest.
 2. Every label has a `fragment_id`, which can be indexed in `fragments.csv`. Find the ID for the label of interest.
-3. Inside `fragments.csv`, search for the line with an equal ID number in the column `unique_id`.
+3. Inside `fragments.csv`, search for the line where the column value of `unique_id` equals `fragment_id` from Step 2.
 4. Proceed like in the previous [section](#opening-the-image-of-a-certain-fragment).
