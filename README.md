@@ -10,7 +10,7 @@ To get the entire dataset, you must download the release containing `dataset.tar
 * `fragments.csv`: file that lists UML fragments and their characteristics
 * `labels.csv`: file that contains the labels received in the crowdsourcing effort
 * `models.csv`: file that lists UML class diagrams and their characteristics
-* `zoo/`: folder that contains all the UML data itself, such as pictures and UML encodings
+* `zoo/`: folder that contains all the UML data itself, such as pictures and UML encodings. Both labeled and unlabeled data are present. Only 5-10% of the UML are labeled.
 
 ## Making use of the dataset
 Unzip the tarball first.
