@@ -2,11 +2,15 @@
 This repository contains the data used for "Extraction of UML Class Diagrams from Natural Language Specification" (Yang et al. 2022)
 
 ## Getting the dataset
-To get the entire dataset, you must download the release containing `dataset.tar.gz`.
+To get the entire dataset, you must download the release containing `dataset.tar.gz`. 
+
+It is too big to be directly committed to git. Find the most recent version in the Releases section (https://github.com/songyang-dev/uml-classes-and-specs/releases).
 
 ## Structure of the dataset
 
-* `dataset.tar.gz`: archive that contains all the files
+* `dataset.tar.gz`: archive that contains all the following files. Available in the Releases section of this repo.
+
+Important parts of the dataset:
 * `fragments.csv`: file that lists UML fragments and their characteristics
 * `labels.csv`: file that contains the labels received in the crowdsourcing effort
 * `models.csv`: file that lists UML class diagrams and their characteristics
