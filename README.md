@@ -1,6 +1,8 @@
 # Repository for UML-English data
 This repository contains the data used for "Extraction of UML Class Diagrams from Natural Language Specification" (Yang et al. 2022)
 
+For the implementation, check out https://github.com/songyang-dev/uml-translation-3step.
+
 ## Getting the dataset
 To get the entire dataset, you must download the release containing `dataset.tar.gz`. 
 
